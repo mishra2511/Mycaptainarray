@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main()
+{
+    int marks[3][3];
+    int i,j;
+   // float avg;
+  //  int sum;
+    printf("Input elements in the matrix :\n");
+    for ( i = 0; i < 3; i++)
+    {
+        for(j=0;j<3;j++){
+            printf("element - [%d],[%d] : ",i,j);
+       scanf("%d",&marks[i][j]);
+       
+    }}
+    printf("\n\nThe matrix is : \n\n\n");
+      for ( i = 0; i < 3; i++)
+    {
+        for(j=0;j<3;j++){
+      
+       printf("%d   ",marks[i][j]);
+               
+                if(j==2)
+                {printf("\n");} }}
+}
